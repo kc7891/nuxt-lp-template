@@ -2,17 +2,20 @@
   <section class="page">
     <MainVisual/>
     <About/>
+    <IconTable/>
   </section>
 </template>
 
 <script>
 import MainVisual from '~/components/MainVisual.vue'
 import About from '~/components/About.vue'
+import IconTable from '~/components/IconTable.vue'
 
 export default {
   components: {
     MainVisual,
-    About
+    About,
+    IconTable,
   }
 }
 </script>

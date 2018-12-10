@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const {join} = require('path')
 
 module.exports = {
   mode: 'universal',
@@ -27,6 +28,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    {src: join(__dirname, 'assets/sass/common-style.scss'), lang: 'scss'},
   ],
 
   /*
@@ -41,6 +43,10 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
+    ['nuxt-sass-resources-loader', [
+      '@/assets/sass/_variable.scss',
+      '@/assets/sass/_animation.scss',
+    ]],
   ],
   /*
   ** Axios module configuration
