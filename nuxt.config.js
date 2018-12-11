@@ -29,6 +29,7 @@ module.exports = {
   */
   css: [
     {src: join(__dirname, 'assets/sass/common-style.scss'), lang: 'scss'},
+    {src: join(__dirname, 'assets/sass/icons.scss'), lang: 'scss'},
   ],
 
   /*
@@ -46,6 +47,7 @@ module.exports = {
     ['nuxt-sass-resources-loader', [
       '@/assets/sass/_variable.scss',
       '@/assets/sass/_animation.scss',
+      '@/assets/sass/_icons.scss',
     ]],
   ],
   /*

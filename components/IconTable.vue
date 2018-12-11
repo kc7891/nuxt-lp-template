@@ -4,22 +4,29 @@
         ul.icons
           li.icon
             .icon-image
+              span.icon-award-solid
             .icon-title
           li.icon
             .icon-image
+              span.icon-beer-solid
             .icon-title
           li.icon
             .icon-image
+              span.icon-bell-reqular
             .icon-title
           li.icon
             .icon-image
+              span.icon-cloud-download
             .icon-title
           li.icon
             .icon-image
+              span.icon-cog-solid
             .icon-title
           li.icon
             .icon-image
+              span.icon-edit-reqular
             .icon-title
+
 </template>
 <style lang="scss" scoped>
 .iconTable {
@@ -28,7 +35,6 @@
   background-color: $secondary;
   .icons {
     display: flex;
-    
   }
 }
 </style>
