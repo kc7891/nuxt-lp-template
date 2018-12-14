@@ -30,6 +30,7 @@ module.exports = {
   css: [
     {src: join(__dirname, 'assets/sass/common-style.scss'), lang: 'scss'},
     {src: join(__dirname, 'assets/sass/icons.scss'), lang: 'scss'},
+    {src: join(__dirname, 'assets/sass/reset.scss'), lang: 'scss'},
   ],
 
   /*
@@ -66,5 +67,12 @@ module.exports = {
     */
     extend(config, ctx) {
     }
-  }
+  },
+
+  /*
+  ** router
+  */
+  // router: {
+  //   base: '/test/'
+  // }
 }

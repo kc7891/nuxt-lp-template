@@ -5,6 +5,8 @@ import '../assets/sass/common-style.scss'
 
 import '../assets/sass/icons.scss'
 
+import '../assets/sass/reset.scss'
+
 import _6f6c098b from '../layouts/default.vue'
 
 const layouts = { "_default": _6f6c098b }

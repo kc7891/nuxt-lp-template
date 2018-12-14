@@ -12,6 +12,7 @@
 }
 .icon-beer-solid {
   @include icon();
+  margin-left: 16px;
   background-image: url('/img/logo/beer-solid.svg');
 }
 .icon-bell-reqular {
@@ -29,6 +30,7 @@
 }
 .icon-edit-reqular {
   @include icon();
+  margin-left: 15px;
   background-size: 100% auto;
   background-image: url('/img/logo/edit-regular.svg');
 }
