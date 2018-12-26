@@ -6,6 +6,9 @@
   background-position: center;
   background-size: auto 100%;
 }
+@mixin icon-wide() {
+  background-size: 100% auto;
+}
 .icon-award-solid {
   @include icon();
   background-image: url('/img/logo/award-solid.svg');
@@ -21,7 +24,7 @@
 }
 .icon-cloud-download {
   @include icon();
-  background-size: 100% auto;
+  @include icon-wide();
   background-image: url('/img/logo/cloud-download-alt-solid.svg');
 }
 .icon-cog-solid {
@@ -30,7 +33,7 @@
 }
 .icon-edit-reqular {
   @include icon();
+  @include icon-wide();
   margin-left: 15px;
-  background-size: 100% auto;
   background-image: url('/img/logo/edit-regular.svg');
 }

@@ -3,7 +3,7 @@
         h1.section-title Contact
         .main-description Please feel free to contact us.
         .e-mail
-          a info@sample-com
+            a(href="mailto:info@sample-com?Subject=Hello") info@sample-com
 </template>
 <style lang="scss" scoped>
 .contact {
@@ -12,10 +12,13 @@
     background-color: $primary-variant;
     color: white;
     .main-description {
-      margin-bottom: 20px;
+        margin-bottom: 20px;
     }
     .e-mail {
-      font-size: 20px;
+        font-size: 20px;
+        a {
+            color: white;
+        }
     }
 }
 </style>

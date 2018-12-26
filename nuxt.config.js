@@ -37,6 +37,9 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    "~plugings/jquery-3.3.1.min.js",
+    "~plugings/delighters.min.js",
+    "~plugings/slick.min.js",
   ],
 
   /*
